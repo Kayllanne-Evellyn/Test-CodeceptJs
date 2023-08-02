@@ -1,7 +1,7 @@
 Feature('cadastro');
 
 Scenario('realizar cadastro', ({ I }) => {
-
+   
     I.amOnPage('https://www.americanas.com.br');
     I.click('olá, faça seu login ou cadastre-se')
     I.click('cadastrar')
